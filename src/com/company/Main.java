@@ -14,8 +14,14 @@ public class Main extends JFrame {
 
         JLabel labelM = new JLabel("How it's your name?");
         labelM.setBounds(50, 50, 200, 30);
+
         JTextField motto1 = new JTextField();
         motto1.setBounds(50, 100, 200, 30);
+
+        gui.add(labelM);
+        gui.add(motto1);
+        gui.setLayout(null);
+        gui.setVisible(true);
     }
 
 }
