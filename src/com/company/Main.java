@@ -22,6 +22,11 @@ public class Main extends JFrame {
         gui.add(motto1);
         gui.setLayout(null);
         gui.setVisible(true);
+
+        JButton b = new JButton("Submit");
+        b.setBounds(50, 150, 100, 30);
+        //add button to the frame
+        gui.add(b);
     }
 
 }
